@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.project.trade.tradeorderbook.controller.TradeControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.094 s <<< FAILURE! - in com.project.trade.tradeorderbook.controller.TradeControllerTest
+initializationError(com.project.trade.tradeorderbook.controller.TradeControllerTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.Exception: Method OrderBookStatusUpdateTest() should be public
+
