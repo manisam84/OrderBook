@@ -53,8 +53,10 @@ Clarification required for implementation:
 ----------------------------------------
 3. Execution of Order when OrderBook is closed for Financial Instrument
 URL:http://localhost:8080/executeOrder
+
     Info required: 
-    --Does the execute order change the order quantity in the orderbook when succesfully executed
+    
+    --Does the execute order change the order quantity in the orderbook when Api is triggered
     or it stored in seperate entity and consolidation happens by the end of day.
     
               
