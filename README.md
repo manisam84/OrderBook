@@ -19,22 +19,27 @@ API Implemented:
 
 1. Financial Instrument OrderBook Open/Close
       URL:http://localhost:8080/OrderBookStatusUpdate
+      
       Request:
          {
 	         "instrumentId" : "BITCOIN",
 	         "orderBookStatus" : "O"
          }
+	 
      Response: 
          HTTP Response 200 : Success
 
 2. Order addition to the OrderBook
     URL:http://localhost:8080/addOrder/BITCOIN
+    
     Request Parameter: InstrumentId
+    
     Request:
        {
 	     "quantity" : 120,
 	     "price" : 100.20
        }
+       
     Response:
         HTTP Response 200 : Success
         HTTP Response 400 : Failure
